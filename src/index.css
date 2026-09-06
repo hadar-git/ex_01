@@ -109,3 +109,9 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.header-title {
+  color: green;
+  font-size: 2rem;
+  text-align: center;
+}
