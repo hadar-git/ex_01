@@ -1,7 +1,8 @@
 const Flower = ({ name, petalC, centerC }) => {
     const flowerName = name
-    const petalColor = petalC
-    const centerColor = centerC
+    const petalColor = petalC || "blue"
+    const centerColor = centerC || "gold"
+
 
     return (
         <div onClick={() => alert(`אני פרח מסוג ${flowerName}`)}>

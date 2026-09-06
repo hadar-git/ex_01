@@ -7,6 +7,9 @@ function App() {
     <div>
       <Header />
       <Flower name="ורד" petalC="pink" centerC="gold" />
+      <Flower name="חבצלת" petalC="purple" />
+      <Flower name="נרקיס" centerC="orange" />
+      <Flower name="כלנית" />
     </div>
   )
 }
