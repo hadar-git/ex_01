@@ -3,12 +3,14 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 //import App from './App.jsx'
 import Header from './Header.jsx'
+import Flower from './flower.jsx'
+
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
-<h1 className="header-title">הגינה שלי</h1> 
-
+    <Header/>
+    <Flower/>
  </StrictMode>,
  
   
