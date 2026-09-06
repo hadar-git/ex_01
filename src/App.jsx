@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Flower name="ורד" petalColor="pink" centerColor="gold" />
+      <Flower name="ורד" petalC="pink" centerC="gold" />
     </div>
   )
 }

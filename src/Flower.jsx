@@ -1,10 +1,11 @@
-const Flower = ({ name, petalColor, centerColor }) => {
+const Flower = ({ name, petalC, centerC }) => {
     const flowerName = name
-    const petalColor = petalColor
-    const centerColor = centerColor
+    const petalColor = petalC
+    const centerColor = centerC
 
     return (
-        <div>
+        <div onClick={() => alert(`אני פרח מסוג ${flowerName}`)}>
+                
             <p>{flowerName}</p>
             <p style={{backgroundColor: petalColor, 
             color: centerColor
