@@ -1,5 +1,5 @@
-const Flower = () => {
-    const flowerName = "ורד"
+const Flower = ({ name }) => {
+    const flowerName = name
     const petalColor = "pink"
     const centerColor = "gold"
 
