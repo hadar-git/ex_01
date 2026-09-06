@@ -1,7 +1,7 @@
-const Flower = ({ name }) => {
+const Flower = ({ name, petalColor, centerColor }) => {
     const flowerName = name
-    const petalColor = "pink"
-    const centerColor = "gold"
+    const petalColor = petalColor
+    const centerColor = centerColor
 
     return (
         <div>
