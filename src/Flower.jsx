@@ -1,8 +1,7 @@
-const Flower = ({ name, petalC, centerC }) => {
+const Flower = ({ name, petalC, centerC } ) => {
     const flowerName = name
     const petalColor = petalC || "blue"
     const centerColor = centerC || "gold"
-
 
     return (
         <div onClick={() => alert(`אני פרח מסוג ${flowerName}`)}>
@@ -25,6 +24,7 @@ const Flower = ({ name, petalC, centerC }) => {
             }}>
                 🌸
             </div>
+            
         </div>
     )
 }
